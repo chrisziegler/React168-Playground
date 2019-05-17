@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Counter from './counter';
 import './App.css';
 
 function App() {
@@ -7,17 +8,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Hello React 16.8.0
+        <span style={{ marginRight: 10, fontSize: 14, color: 'yellowgreen' }}>
+          Simple useState Hook:{' '}
+          <span style={{ color: 'white', marginRight: 10 }}>Counter</span>
+          <Counter />
+        </span>
       </header>
     </div>
   );

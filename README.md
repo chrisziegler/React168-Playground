@@ -6,6 +6,6 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Playground for the react 16.8 supporting hooks: useState, useEffect. Also Context API, Render Props, Styled Components, and putting things together with a Switchable Dark Theme to integrate into other projects
+Playground for the react 16.8 supporting hooks: useState, useEffect. Also Context API, Render Props, Styled Components, and putting things together with a **Switchable Dark Theme** to integrate into other projects
 
 <img src='src/images/fishing-hook.jpg' width=500/>
