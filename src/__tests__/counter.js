@@ -10,4 +10,6 @@ test('counter increments the count', () => {
   expect(button.textContent).toBe('0');
   fireEvent.click(button);
   expect(button.textContent).toBe('1');
+  // if we had a handler...
+  // expect(handleClick).toHaveBeenCalledTimes(1)
 });
